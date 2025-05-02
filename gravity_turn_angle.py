@@ -3,7 +3,7 @@ import constants
 
 def get_gravity_turn_angle(altitude: float) -> float:
     if (altitude < constants.gravity_turn_start_altitude):
-        return 90
+        return constants.up_target_pitch
 
     #How to make a smooth transition between those two functions?
     if (altitude <= constants.middle_atmosphere_altitude):

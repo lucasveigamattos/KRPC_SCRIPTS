@@ -4,6 +4,8 @@ import krpc
 
 from orbital_flight import orbital_flight
 
+#TODO: separete landing in other file.
+#TODO: make landing script better.
 def landing():
     connection = krpc.connect(name = "Landing.")
     vessel = connection.space_center.active_vessel
