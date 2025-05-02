@@ -47,6 +47,7 @@ flight_mode = input("Choose flight mode: ")
 
 os.system("cls")
 
+#TODO: one line per case.
 match flight_mode:
     case "0":
         altitude = float(input("Apoapis altitude in meters: "))
