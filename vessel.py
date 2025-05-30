@@ -24,6 +24,9 @@ class Vessel:
     
     def get_altitude(self) -> float:
         return self.flight.mean_altitude
+    
+    def get_altitude_above_surface(self) -> float:
+        return self.flight.surface_altitude
 
     def get_apoapis_altitude(self) -> float:
         return self.orbit.apoapsis_altitude
