@@ -21,6 +21,6 @@ match flight_mode:
     case "0":
         orbital_flight_case()
     case "1":
-        landing(3)
+        landing()
     case _:
         print("Unknown flight mode, please, choose a valid option next time.")
